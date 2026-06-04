@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Analytics Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <h2>TrackFlow</h2>
+        </div>
+
+        <nav>
+
+            <ul class="nav-links">
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+
+    </aside>
+
+    <main class="main-content">
+        <header class="top-header">
+
+            <div>
+                <h1>Personal Analytics Dashboard</h1>
+                <p>Monitor your projects, tasks, and productivity</p>
+            </div>
+
+            <button class="header-btn">Generate Report</button>
+        </header>
+        
+        <section class="kpi-grid">
+            <div class="card">
+                <span class="card-label">Total Projects</span>
+                <h2>12 Active</h2>
+            </div>
+
+            <div class="card">
+                <span class="card-label">Tasks Completed</span>
+                <h2>48 / 64</h2>
+
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+
+                <small>75% completed</small>
+            </div>
+
+            <div class="card">
+                <span class="card-label">Hours Logged</span>
+                <h2>142.5 hrs</h2>
+            </div>
+
+            <div class="card alert-card">
+                <span class="card-label">Pending Reviews</span>
+                <h2>3 Urgent</h2>
+            </div>
+        </section>
+
+        <section class="table-container">
+
+            <div class="section-heading">
+                <h2>Active Projects</h2>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Deadline</th>
+                            <th>Priority</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Portfolio Redesign</td>
+                            <td>Oct 15, 2026</td>
+                            <td>High</td>
+                            <td class="status progress-status">In Progress</td>
+                        </tr>
+                        <tr>
+                            <td>E-Commerce API</td>
+                            <td>Nov 2, 2026</td>
+                            <td>Critical</td>
+                            <td class="status delayed-status">Delayed</td>
+                        </tr>
+                        <tr>
+                            <td>Database Migration</td>
+                            <td>Dec 20, 2026</td>
+                            <td>Medium</td>
+                            <td class="status completed-status">Completed</td>
+                        </tr>
+
+                        <tr>
+                            <td>Mobile App UI v2</td>
+                            <td>Jan 18, 2027</td>
+                            <td>Low</td>
+                            <td class="status progress-status">In Progress</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="activity-container">
+            <div class="section-heading">
+                <h2>Recent Activity</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="activity-item">
+                    <p>
+                        <strong>09:30 AM</strong> - Sarah Jenkins pushed 4 commits to main (Portfolio Redesign).
+                    </p>
+                </div>
+                <div class="activity-item">
+                    <p>
+                        <strong>11:15 AM</strong> - System automated backup completed successfully.
+                    </p>
+                </div>
+                <div class="activity-item">
+                    <p>
+                        <strong>02:45 PM</strong> - Priority flag escalated on E-Commerce API by Alex Chen. 
+                    </p>
+                </div>
+                <div class="activity-item">
+                    <p>
+                        <strong>04:00 PM</strong> - Design assets uploaded for Mobile App UI v2.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
