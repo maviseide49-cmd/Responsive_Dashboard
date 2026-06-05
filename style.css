@@ -298,6 +298,7 @@ tbody tr:hover {
 .activity-item strong{
     min-width: 80px;
     display: inline-block;
+}
 
 /*==========Tablet View==========*/
 @media (max-width: 1024px) {
